@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+  
+header{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+}
+
+.jogos{
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+  
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    transition: 0.4s;
+    color: #3e8e41;
+}
+  
+.img-jogos{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 40px;
+    height: 100px;
+    border-radius: 50%;
+}
+  
+.container-cards {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+  
+.card {
+    padding: 50px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+    color: #333;
+}
+  
+.card button {
+    width: 250px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.card button:hover {
+    transition: 0.5s;
+    background-color: #3e8e41;
+}
+
+footer{
+    position: relative;
+    bottom: -700px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+}
